@@ -356,17 +356,17 @@ img {
 }
 
 /* соцсети карточек */
-.list-social-link {
+.soc-wrap {
   display: flex;
   margin: 0 auto;
   padding-bottom: 30px;
 }
 
-.social-list-icon:not(:last-child) {
+.soc-wrap__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.social-link-icon {
+.soc-wrap__link {
   display: flex;
   height: 44px;
   width: 44px;
@@ -379,8 +379,8 @@ img {
   transition: background-color 250ms var(--animation);
 }
 
-.social-link-icon:hover,
-.social-link-icon:focus {
+.soc-wrap__link:hover,
+.soc-wrap__link:focus {
   background-color: var(--blue-color);
   fill: var(--primary-color);
   /* transition: fill 250ms var(--animation);
@@ -549,7 +549,7 @@ img {
   margin-left: 70px;
 }
 
-.social-icon-footer {
+.soc-wrap__icon {
   transition: fill 250ms var(--animation);
 }
 
