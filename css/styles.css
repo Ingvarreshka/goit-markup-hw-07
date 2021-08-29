@@ -503,15 +503,15 @@ img {
 }
 
 /* Клиенты */
-.client-section {
+.client {
   padding: 94px 0;
 }
 
-.client-item {
+.client__item {
   display: flex;
 }
 
-.client-link {
+.client__link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -522,16 +522,16 @@ img {
   transition: color 250ms var(--animation), border 250ms var(--animation);
 }
 
-.client-icon {
+.client__icon {
   fill: var(--fill-social-icon);
 }
 
-.client-link:hover,
-.client-link:focus {
+.client__link:hover,
+.client__link:focus {
   border-color: var(--blue-color);
 }
 
-.client-link:hover .client-icon {
+.client__link:hover .client__icon {
   fill: var(--blue-color);
 }
 
@@ -553,7 +553,7 @@ img {
   transition: fill 250ms var(--animation);
 }
 
-.footer-social {
+.soc-wrap__link--color {
   fill: var(--title-color);
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms var(--animation);
@@ -574,7 +574,7 @@ img {
   color: var(--blue-color);
 }
 
-.address_link :hover {
+.address_link:hover {
   color: var(--blue-color);
 }
 
