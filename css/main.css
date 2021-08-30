@@ -250,11 +250,11 @@ img {
   padding: 47px 0 94px;
 }
 
-.about-foto-card {
+.preview__item {
   position: relative;
 }
 
-.about-img {
+.preview__img {
   display: block;
   width: 100%;
   height: auto;
