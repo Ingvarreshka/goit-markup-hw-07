@@ -177,7 +177,7 @@ img {
 
 /* главная страница */
 
-.main-section {
+.main__section {
   padding: 200px 0;
   text-align: center;
   background-color: var(--primary-background);
@@ -191,7 +191,7 @@ img {
     url(../images/mainsection.jpg);
 }
 
-.main-title {
+.main__title {
   margin: auto;
   width: 696px;
 
@@ -202,7 +202,7 @@ img {
   text-transform: uppercase;
 }
 
-.main-section .primary-button {
+.main__section .main__button {
   padding: 10px 32px;
   margin-top: 30px;
   display: inline-block;
@@ -220,8 +220,8 @@ img {
     background-color 250ms var(--animation);
 }
 
-.main-section .primary-button:focus,
-.main-section .primary-button:hover {
+.main__section .main__button:focus,
+.main__section .main__button:hover {
   color: var(--blue-color);
   background-color: var(--primary-color);
 }
