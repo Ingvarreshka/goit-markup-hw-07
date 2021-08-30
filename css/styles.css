@@ -629,9 +629,10 @@ img {
   margin-top: 20px;
   padding: 14.5px 0 15px 16px;
   width: 358px;
+  color: var(--primary-color);
 }
 
-.subscrabe-button {
+.sub-button__label {
   color: var(--title-color);
   background-color: var(--blue-color);
   font-weight: 700;
@@ -654,15 +655,15 @@ img {
     color 250ms var(--animation);
 }
 
-.subscrabe-button:hover,
-.subscrabe-button:focus,
-.subscrabe-button:hover .subscrabe-icon {
+.sub-button__label:hover,
+.sub-button__label:focus,
+.sub-button__label:hover .sub-button__icon {
   color: var(--blue-color);
   background-color: var(--title-color);
   fill: var(--blue-color);
 }
 
-.subscrabe-icon {
+.sub-button__icon {
   margin-left: 10px;
   fill: var(--title-color);
 
