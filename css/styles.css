@@ -220,8 +220,8 @@ img {
     background-color 250ms var(--animation);
 }
 
-.main__section .main__button:focus,
-.main__section .main__button:hover {
+.main__button:focus,
+.main__button:hover {
   color: var(--blue-color);
   background-color: var(--primary-color);
 }
@@ -286,23 +286,23 @@ img {
   letter-spacing: 0.03em;
 }
 
-/* страница Студия */
+/* Информация */
 
-.info-discription {
+.info__item {
   width: 270px;
 }
 
-.info-container {
+.info {
   padding: 94px 0 47px;
 }
 
-.svg-container {
+.svg {
   background-color: var(--background-color-team);
   padding: 25px 100px;
   border-radius: 4px;
 }
 
-.info-title {
+.info__label {
   padding-top: 30px;
   padding-bottom: 10px;
 
