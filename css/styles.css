@@ -591,28 +591,28 @@ img {
   text-transform: uppercase;
 }
 
-/* форма подвала */
+/* подписка в футере */
 
-.footer-form {
+.sub-form {
   margin-left: 93px;
 }
 
-.subscrabe-thumb {
+.sub-form__content {
   display: flex;
   margin-left: auto;
 }
 
-.subscrabe-thumb:last-child {
+.sub-form__content:last-child {
   align-items: flex-end;
 }
 
-.subscrabe-input-thumb {
+.sub-form__input {
   display: flex;
   max-width: 358px;
   flex-direction: column;
 }
 
-.subscrabe-text {
+.sub-form__caption {
   color: var(--title-color);
   font-weight: 700;
   font-size: 14px;
@@ -620,7 +620,7 @@ img {
   text-transform: uppercase;
 }
 
-.subscrabe-input {
+.sub-form__email {
   background-color: var(--primary-background);
   font-size: 16px;
   line-height: 1.25;
