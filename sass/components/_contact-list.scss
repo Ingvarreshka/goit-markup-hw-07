@@ -1,7 +1,6 @@
 .contacts-list {
     display: flex;
     margin-left: auto;
-}
 
 .&__item + .&__item {
     margin-left: 50px;
@@ -24,4 +23,5 @@
     margin-right: 10px;
     fill: $text-secondary;
     transition: color 250ms $animation;
+}
 }
