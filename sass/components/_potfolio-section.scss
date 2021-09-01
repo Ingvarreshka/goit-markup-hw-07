@@ -3,7 +3,7 @@
 }
 
 .product__text {
-    color: var(--text-secondary);
+    color: $text-secondary;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -12,13 +12,13 @@
 
 .product__meta {
     padding: 20px 24px;
-    border: 1px solid var(--border-portfolio);
+    border: 1px solid $border-portfolio;
     border-top: none;
-    background-color: var(--primary-color);
+    background-color: $primary-color;
 }
 
 .product__title {
-    color: var(--text-primary);
+    color: $text-primary;
     font-size: 18px;
     line-height: 36px;
     letter-spacing: 0.06em;

@@ -8,20 +8,20 @@
 }
 
 .contact-list__link {
-    color: var(--text-secondary);
+    color: $text-secondary;
     transition: color 250ms var(--animation);
 }
 
 .contact-list__link:hover {
-    color: var(--blue-color);
+    color: $blue-color;
 }
 
 .contact-list__link:hover .svg-header {
-    fill: var(--blue-color);
+    fill: $blue-color;
 }
 
 .svg-header {
     margin-right: 10px;
-    fill: var(--text-secondary);
+    fill: $text-secondary;
     transition: color 250ms var(--animation);
 }
