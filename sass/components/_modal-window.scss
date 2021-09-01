@@ -53,9 +53,9 @@
         border-radius: 50%;
 
         transition: color 250ms $animation;
+    
+        &:hover,
+        &:focus {
+            color: $blue-color;
     }
-
-    .close:hover,
-    .close:focus {
-        color: $blue-color;
     }
