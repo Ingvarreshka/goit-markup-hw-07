@@ -1,0 +1,31 @@
+.client {
+    padding: 94px 0;
+}
+
+.client__item {
+    display: flex;
+}
+
+.client__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    border-radius: 4px;
+    border: 1px solid var(--border-portfolio);
+
+    transition: color 250ms var(--animation), border 250ms var(--animation);
+}
+
+.client__icon {
+    fill: var(--fill-social-icon);
+}
+
+.client__link:hover,
+.client__link:focus {
+    border-color: var(--blue-color);
+}
+
+.client__link:hover .client__icon {
+    fill: var(--blue-color);
+}

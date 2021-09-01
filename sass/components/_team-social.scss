@@ -1,0 +1,30 @@
+.soc-wrap {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.soc-wrap__item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.soc-wrap__link {
+    display: flex;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill: var(--fill-social-icon);
+
+    transition: fill 250ms var(--animation);
+    transition: background-color 250ms var(--animation);
+}
+
+.soc-wrap__link:hover,
+.soc-wrap__link:focus {
+    background-color: var(--blue-color);
+    fill: var(--primary-color);
+    /* transition: fill 250ms var(--animation);
+  transition: background-color 250ms var(--animation); */
+}

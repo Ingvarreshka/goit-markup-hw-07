@@ -1,0 +1,29 @@
+.portfolio-section {
+    padding: 94px;
+}
+
+.product__text {
+    color: var(--text-secondary);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+}
+
+.product__meta {
+    padding: 20px 24px;
+    border: 1px solid var(--border-portfolio);
+    border-top: none;
+    background-color: var(--primary-color);
+}
+
+.product__title {
+    color: var(--text-primary);
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+}
+
+.portfolio__item {
+    width: 370px;
+}
