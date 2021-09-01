@@ -14,7 +14,7 @@
     background-color: rgba(33, 150, 243, 0.9);
 
     transform: translateY(100%);
-    transition: transform 250ms var(--animation);
+    transition: transform 250ms $animation;
 }
 
 .product:hover .overlay,
@@ -45,7 +45,7 @@
 .product__link {
     display: block;
 
-    transition: transform 250ms var(--animation);
+    transition: transform 250ms $animation;
 }
 
 .product__link:hover,

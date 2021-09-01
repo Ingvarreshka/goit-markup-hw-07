@@ -17,14 +17,12 @@
     justify-content: center;
     fill: $fill-social-icon;
 
-    transition: fill 250ms var(--animation);
-    transition: background-color 250ms var(--animation);
+    transition: fill 250ms $animation;
+    transition: background-color 250ms $animation;
 }
 
 .soc-wrap__link:hover,
 .soc-wrap__link:focus {
     background-color: $blue-color;
     fill: $primary-color;
-    /* transition: fill 250ms $(--animation);
-  transition: background-color 250ms $(--animation); */
-}
+    }

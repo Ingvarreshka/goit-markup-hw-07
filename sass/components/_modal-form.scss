@@ -49,7 +49,7 @@
         border: 1px solid rgba(33, 33, 33, 0.2);
         padding: 12px 16px;
 
-        transition: border 250ms var(--animation);
+        transition: border 250ms $animation;
     }
 
     .form-icon {
@@ -58,7 +58,7 @@
         top: 50%;
         left: 15px;
         transform: translateY(-50%);
-        transition: fill 250ms var(--animation);
+        transition: fill 250ms $animation;
     }
 
     .form-input {
@@ -67,7 +67,7 @@
         border-radius: 4px;
 
         width: 100%;
-        transition: border 250ms var(--animation);
+        transition: border 250ms $animation;
     }
 
     .input-field {
@@ -98,11 +98,9 @@
         border: 2px solid $secondary-color;
         margin-right: 7px;
         border-radius: 4px;
-        transition: background-color 250ms var(--animation),
-            background-image 250ms var(--animation);
+        transition: background-color 250ms $animation,
+            background-image 250ms $animation;
     }
-
-    /* выделение галочки */
 
     .check_input:checked+.check_box {
         background-size: contain;
@@ -111,5 +109,5 @@
         border: 1px solid $blue-color;
         background-image: url(./images/icon\check.svg);
 
-        transition: background-image 250ms var(--animation);
+        transition: background-image 250ms $animation;
     }

@@ -3,25 +3,25 @@
     margin-left: auto;
 }
 
-.contacts-list__item+.contacts-list__item {
+.&__item + .&__item {
     margin-left: 50px;
 }
 
-.contact-list__link {
+.&__link {
     color: $text-secondary;
-    transition: color 250ms var(--animation);
+    transition: color 250ms $animation;
 }
 
-.contact-list__link:hover {
+.&__link:hover {
     color: $blue-color;
 }
 
-.contact-list__link:hover .svg-header {
+.&__link:hover .svg-header {
     fill: $blue-color;
 }
 
 .svg-header {
     margin-right: 10px;
     fill: $text-secondary;
-    transition: color 250ms var(--animation);
+    transition: color 250ms $animation;
 }

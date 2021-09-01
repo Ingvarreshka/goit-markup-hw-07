@@ -18,8 +18,8 @@
     border: 1px solid transparent;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
-    transition: background-color 250ms var(--animation),
-        color 250ms var(--animation), border 250ms var(--animation);
+    transition: background-color 250ms $animation,
+        color 250ms $animation, border 250ms $animation;
 }
 
 .button-form:focus,
