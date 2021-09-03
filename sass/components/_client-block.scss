@@ -1,12 +1,12 @@
 .client {
     padding: 94px 0;
-}
 
-.&__item {
+
+&__item {
     display: flex;
 }
 
-.&__link {
+&__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -17,8 +17,9 @@
     transition: color 250ms $animation, border 250ms $animation;
 }
 
-.&__icon {
+&__icon {
     fill: $fill-social-icon;
+}
 }
 
 .client__link:hover,

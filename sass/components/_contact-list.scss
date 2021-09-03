@@ -2,20 +2,20 @@
     display: flex;
     margin-left: auto;
 
-.&__item + .&__item {
+&__item + &__item {
     margin-left: 50px;
 }
 
-.&__link {
+&__link {
     color: $text-secondary;
     transition: color 250ms $animation;
 }
 
-.&__link:hover {
+&__link:hover {
     color: $blue-color;
 }
 
-.&__link:hover .svg-header {
+&__link:hover .svg-header {
     fill: $blue-color;
 }
 

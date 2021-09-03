@@ -1,22 +1,22 @@
 .sub-form {
     margin-left: 93px;
 
-.&__content {
+&__content {
     display: flex;
     margin-left: auto;
 }
 
-.&__content:last-child {
+&__content:last-child {
     align-items: flex-end;
 }
 
-.&__input {
+&__input {
     display: flex;
     max-width: 358px;
     flex-direction: column;
 }
 
-.&__caption {
+&__caption {
     color: $title-color;
     font-weight: 700;
     font-size: 14px;
@@ -24,7 +24,7 @@
     text-transform: uppercase;
 }
 
-.&__email {
+&__email {
     background-color: $primary-background;
     font-size: 16px;
     line-height: 1.25;
