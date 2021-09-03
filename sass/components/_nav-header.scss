@@ -39,7 +39,7 @@
         background-color 250ms $animation;
 }
 
-.nav-header__link.active::after {
+.nav-header__link.current::after {
     display: block;
 }
 

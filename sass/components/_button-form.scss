@@ -21,8 +21,8 @@
     transition: background-color 250ms $animation,
         color 250ms $animation, border 250ms $animation;
 
-    .&:focus,
-    .&:hover {
+    &:focus,
+    &:hover {
     background-color: $title-color;
     color: $blue-color;
     border: 1px solid $blue-color;

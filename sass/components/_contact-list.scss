@@ -1,21 +1,22 @@
 .contacts-list {
     display: flex;
     margin-left: auto;
+}
 
-&__item + &__item {
+.contacts-list__item + .contacts-list__item {
     margin-left: 50px;
 }
 
-&__link {
+.contact-list__link {
     color: $text-secondary;
     transition: color 250ms $animation;
 }
 
-&__link:hover {
+.contact-list__link:hover {
     color: $blue-color;
 }
 
-&__link:hover .svg-header {
+.contact-list__link:hover .svg-header {
     fill: $blue-color;
 }
 
@@ -23,5 +24,4 @@
     margin-right: 10px;
     fill: $text-secondary;
     transition: color 250ms $animation;
-}
 }
